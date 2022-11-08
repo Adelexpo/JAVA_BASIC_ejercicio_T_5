@@ -30,4 +30,17 @@ public class CocheCRUDImpl implements CocheCRUD {
     public void save(Coche coche) {
 
     }
+
+    String save = "guardad";
+    String findAll = "buscar todos";
+    String delete = "Borranr";
+
+    @Override
+    public String toString() {
+        return "CocheCRUDImpl{" +
+                "save='" + save + '\'' +
+                ", findAll='" + findAll + '\'' +
+                ", delete='" + delete + '\'' +
+                '}';
+    }
 }
